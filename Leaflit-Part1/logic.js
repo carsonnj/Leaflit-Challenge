@@ -13,6 +13,7 @@ function createMap(response) {
         center: centerCoordinates,
         zoom: mapZoom
     });
+}
 
     // Create the tile layer that will be the background of our map
     L.tileLayer("https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}", {
