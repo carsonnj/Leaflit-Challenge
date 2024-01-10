@@ -53,12 +53,12 @@ function createMap(earthquakeData) {
   
   // Function to get color based on depth
   function getColor(depth) {
-    return depth > 90 ? '#800026' :
-           depth > 70 ? '#BD0026' :
-           depth > 50 ? '#E31A1C' :
-           depth > 30 ? '#FC4E2A' :
-           depth > 10 ? '#FD8D3C' :
-                        '#FEB24C';
+    return depth > 90 ? '#80ff00' :
+           depth > 70 ? '#bfff00' :
+           depth > 50 ? '#ffff00' :
+           depth > 30 ? '#ffbf00' :
+           depth > 10 ? '#ff8000' :
+                        '#ff4000';
   }
   
   // Fetch earthquake data from the USGS GeoJSON feed
